@@ -1,0 +1,39 @@
+{
+  "name": "you-can-sleep-when-youre-dead",
+  "version": "1.0.0",
+  "description": "Trying to keep @rclark awake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Thank you!'"
+  },
+  "bin": {
+    "send-alarms": "bin/send-alarms.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rclark/you-can-sleep-when-youre-dead.git"
+  },
+  "author": "Everyone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclark/you-can-sleep-when-youre-dead/issues"
+  },
+  "homepage": "https://github.com/rclark/you-can-sleep-when-youre-dead",
+  "dependencies": {
+    "mbtiles": "^0.7.8",
+    "queue-async": "^1.0.7"
+  },
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": false,
+    "undef": true,
+    "unused": true,
+    "noarg": true
+  },
+  "jscsConfig": {
+    "preset": "airbnb",
+    "requireCamelCaseOrUpperCaseIdentifiers": null,
+    "disallowMultipleVarDecl": true,
+    "requireMultipleVarDecl": null
+  }
+}
